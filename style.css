@@ -1,0 +1,223 @@
+/******************************************
+            TABLE OF CONTENTS:
+
+1. Global styles
+
+2. Layout/typography
+
+3. Modal/textarea
+
+4. Buttons
+
+*******************************************/
+
+/* =============
+   Global styles
+   ============= */
+
+body {
+    position: absolute;
+    left: 6.14%;
+    right: 6.14%;
+    top: 12.41%;
+    bottom: 6.55%;
+    background: #F9FBFC;
+    box-shadow: 0px 0px 7px rgba(49, 49, 49, 0.1);
+    border-radius: 20px;
+    margin: 0%;
+    height: 100%;
+}
+
+/* =============
+    Layout/ 
+    typography
+   ============= */
+.navbar {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 110px;
+    margin-top: -44px;
+    width: 1230px;
+    margin-left: 50px;
+    background-color: #004F54;
+    border-radius: 10px;
+}
+
+
+.navbar a {
+    font-family: Helvetica Neue;
+    font-weight: 700;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+h1 {
+    color: #004F54;
+    margin-left: 80px;
+    margin-top: -55px;
+}
+
+
+.navbar a:hover {
+    background-color: #F9FBFC;
+    color: #004F54;
+    border-radius: 5px;
+    margin-top: 11px;
+}
+
+.navbar a.navdoc1,
+.navbar a.navdoc2,
+.navbar a.navdoc3 {
+    background: #F9FBFC;
+    color: #004F54;
+    margin-top: 11px;
+    border-radius: 5px;
+}
+
+.text {
+    position: absolute;
+    width: 1150px;
+    height: 300px;
+    left: 80px;
+    top: 260px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 43px;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+}
+
+.text .tex {
+    padding-right: 130px;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(192, 203, 202, 0.3);
+    color: #696969;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+/* =============
+       Modal/
+      textarea
+   ============= */
+
+.modal-container {
+    width: 500px;
+    height: 250px;
+    background-color: #004F54;
+    background-position: 100%;
+    border-radius: 5px;
+    padding: 25px 25px 30px;
+    opacity: 0;
+    margin-left: 680px;
+    margin-top: 30px;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    position: absolute;
+}
+
+.modal-container.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+#modal textarea {
+    background-color: #004F54;
+    color: white;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    font-size: 17px;
+    outline: none;
+    border: transparent;
+    margin-top: 80px;
+}
+
+
+textarea:is(:focus, :valid) {
+    border-color: white;
+    border-radius: 10px;
+    padding: 2px;
+    border-width: 1px;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+#add {
+
+    margin-left: 5px;
+    width: 25px;
+}
+
+#delete {
+    margin-left: 110px;
+    margin-top: 18px;
+    width: 20px;
+}
+
+#icon {
+    margin-left: 790px;
+    margin-top: 18px;
+    width: 25px;
+}
+
+::placeholder {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* =============
+      Buttons
+   ============= */
+
+#open {
+    margin-left: 1115px;
+    margin-top: 170px;
+    width: 110px;
+    height: 80px;
+    background-color: #004F54;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+#save {
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    color: #FFFFFF;
+    background: #01575C;
+    border-radius: 3px;
+    outline: none;
+    border: transparent;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}

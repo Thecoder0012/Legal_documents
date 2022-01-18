@@ -1,7 +1,7 @@
 # Assignment
 HtML/CSS/JS assignment
 
-Here I am creating a site for a company for one to browse legal documents. - 
+Here I am creating a site for a legal consultancy company for one to browse legal documents. - 
 to create/add messages and save them in the documents.
 
 

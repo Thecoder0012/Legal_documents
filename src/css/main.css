@@ -26,6 +26,7 @@ body {
     border-radius: 20px;
     margin: 0%;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 /* =============
@@ -35,10 +36,10 @@ body {
 .navbar {
     position: relative;
     overflow: hidden;
-    margin-bottom: 110px;
-    margin-top: -44px;
-    width: 1230px;
-    margin-left: 50px;
+    margin-bottom: 7.8%;
+    margin-top: -4%;
+    width: 100%;
+    margin-left: 2.5%;
     background-color: #004F54;
     border-radius: 10px;
 }
@@ -50,16 +51,16 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 30px;
+    padding: 1% 2%;
     text-decoration: none;
     font-size: 12px;
-    margin-top: 5px;
+    margin-top: 0.5%;
 }
 
 h1 {
     color: #004F54;
-    margin-left: 80px;
-    margin-top: -55px;
+    margin-left: 8%;
+    margin-top: -4%;
 }
 
 
@@ -67,7 +68,7 @@ h1 {
     background-color: #F9FBFC;
     color: #004F54;
     border-radius: 5px;
-    margin-top: 11px;
+    margin-top: 1%;
 }
 
 .navbar a.navdoc1,
@@ -75,30 +76,25 @@ h1 {
 .navbar a.navdoc3 {
     background: #F9FBFC;
     color: #004F54;
-    margin-top: 11px;
+    margin-top: 1%;
     border-radius: 5px;
 }
 
 .container {
     position: absolute;
-    width: 1150px;
-    height: 300px;
-    left: 80px;
-    top: 260px;
+    width: 93%;
+    left: 6%;
+    top: 5%;
     font-family: Helvetica Neue;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 43px;
     pointer-events: none;
-    display: flex;
-    align-items: center;
 }
 
 .container .text-container {
-    padding-right: 130px;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding: 1% 15% 5% 2%;
     position: absolute;
     border-radius: 10px;
     box-shadow: 0px 0px 4px rgba(192, 203, 202, 0.3);
@@ -110,7 +106,7 @@ h1 {
     line-height: 43px;
     display: flex;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 8%;
     background-color: #FFFFFF;
 }
 
@@ -120,15 +116,14 @@ h1 {
    ============= */
 
 .modal-container {
-    width: 500px;
-    height: 250px;
+    width: 40%;
     background-color: #004F54;
     background-position: 100%;
     border-radius: 5px;
-    padding: 25px 25px 30px;
+    padding: 2.5% 2% 2%;
     opacity: 0;
-    margin-left: 680px;
-    margin-top: 30px;
+    margin-left: 53%;
+    margin-top: 4%;
     transition: opacity 0.5s ease;
     pointer-events: none;
     position: absolute;
@@ -172,9 +167,9 @@ textarea::-webkit-scrollbar {
 
 
 #icon {
-    margin-left: 790px;
-    margin-top: 18px;
-    width: 25px;
+    margin-left: 62%;
+    margin-top: 1.5%;
+    width: 2.3%;
 }
 
 ::placeholder {
@@ -188,26 +183,26 @@ textarea::-webkit-scrollbar {
    ============= */
 
 #create {
-    margin-left: 1115px;
-    margin-top: 170px;
-    width: 110px;
-    height: 80px;
+    margin-left: 88%;
+    margin-top: 15%;
+    width: 10%;
+    height: 8%;
     background-color: #004F54;
     color: white;
     font-size: 15px;
     border-radius: 10px;
     position: absolute;
+    cursor: pointer;
 }
 
 #save {
     position: absolute;
-    margin-top: 10px;
-    text-align: center;
-    width: 90px;
+    margin-top: 3%;
+    width: 15%;
     height: 30px;
     color: #FFFFFF;
     background: #01575C;
-    border-radius: 3px;
+    border-radius: 10px;
     outline: none;
     border: transparent;
     font-family: Helvetica Neue;
@@ -218,7 +213,7 @@ textarea::-webkit-scrollbar {
 }
 
 #delete {
-    margin-left: 110px;
-    margin-top: 18px;
-    width: 20px;
+    margin-left: 23%;
+    margin-top: 4%;
+    width: 4%;
 }

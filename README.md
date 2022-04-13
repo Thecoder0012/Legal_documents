@@ -4,4 +4,4 @@ I have created a website for a legal consultancy company for one to browse legal
 to create/add messages and save them in the documents.
 
 
-<img width="1379" alt="site" src="https://user-images.githubusercontent.com/92215742/163272219-986900e6-ba4e-48ac-8efe-b477a6f9b5ff.png">
+<img width="1298" alt="page" src="https://user-images.githubusercontent.com/92215742/163272673-d103155d-18f5-4716-9778-2c94454c25cc.png">
